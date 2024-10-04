@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-pic:hover {
+    scale: 1.5;
+}
+
+.post-section {
+    width: 80%;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post-info {
+    margin-top: 1rem;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-list li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background-color: #f0f0f0;
+}

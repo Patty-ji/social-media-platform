@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Social Media</h1>
+    </header>
+
+    <main>
+        <section class="profile">
+            <div class="profile-info">
+                <img src="C:\Users\PIYUSH KUMAR SHARMA\OneDrive\Desktop\project\social media platform\WIN_20240919_10_26_04_Pro.jpg " alt="Profile Picture" class="profile-pic">
+                <h2>Piyus Kumar Sharma</h2>
+                <button id="btn" onclick="followUser()">Follow</button>
+            </div>
+        </section>
+
+        <section class="post-section">
+            <h2>Posts</h2>
+            <div class="post">
+                <img src="C:\Users\PIYUSH KUMAR SHARMA\OneDrive\Desktop\project\social media platform\wallpaperflare.com_wallpaper (2).jpg" alt="Post 1" class="post-image">
+                <div class="post-info">
+                    <button onclick="likePost(this)">❤️ <span class="like-count">0</span></button><br>
+                    <input type="text" placeholder="Add a comment..." class="comment-input">
+                    <button onclick="addComment(this)">Comment</button>
+                    <ul class="comment-list"></ul>
+                </div>
+            </div>
+            <div class="post">
+                <img src="C:\Users\PIYUSH KUMAR SHARMA\OneDrive\Desktop\project\social media platform\Capture001.png" alt="Post 2" class="post-image">
+                <div class="post-info">
+                    <button onclick="likePost(this)">❤️ <span class="like-count">0</span></button><br>
+                    <input type="text" placeholder="Add a comment..." class="comment-input">
+                    <button onclick="addComment(this)">Comment</button>
+                    <ul class="comment-list"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
